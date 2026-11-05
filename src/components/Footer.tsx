@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-500 flex items-center gap-1">
-            © {new Date().getFullYear()} Siddharth. Built with
+            © 2026 Siddharth. Built with
             <Heart className="w-3 h-3 text-red-400 inline" />
             using Next.js & Tailwind CSS
           </p>

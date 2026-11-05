@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 sm:pt-36 pb-20 px-6 sm:px-8"
     >
       {/* Background Orbs */}
       <div className="orb w-[500px] h-[500px] bg-electric-500 top-[-100px] left-[-100px]" />
@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Radial gradient overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#020617_70%)]" />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto text-center">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -118,16 +118,19 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.7 }}
-          className="grid grid-cols-3 gap-6 sm:gap-12 mt-16 max-w-lg mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-16 max-w-2xl mx-auto"
         >
           {[
             { value: '2+', label: 'Years Experience' },
             { value: '15+', label: 'Projects Completed' },
             { value: '10+', label: 'Happy Clients' },
           ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold gradient-text">{stat.value}</div>
-              <div className="text-xs sm:text-sm text-slate-500 mt-1">{stat.label}</div>
+            <div
+              key={stat.label}
+              className="glass-card p-5 sm:p-6 rounded-2xl text-center border border-white/10 hover:border-electric-500/30 transition-all shadow-lg"
+            >
+              <div className="text-3xl sm:text-4xl font-extrabold gradient-text mb-1">{stat.value}</div>
+              <div className="text-xs sm:text-sm text-slate-400 font-medium">{stat.label}</div>
             </div>
           ))}
         </motion.div>

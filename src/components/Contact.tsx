@@ -59,44 +59,45 @@ export default function Contact() {
     setTimeout(() => setStatus({ type: 'idle', message: '' }), 5000);
   };
 
-  const inputClasses = "w-full px-4 py-3.5 rounded-xl bg-white/[0.03] border border-white/10 text-white placeholder:text-slate-500 focus:outline-none focus:border-electric-500/50 focus:bg-white/[0.05] focus:ring-1 focus:ring-electric-500/20 transition-all duration-300 text-sm";
+  const inputClasses =
+    "w-full px-5 py-4 rounded-xl bg-slate-950/80 border border-white/15 text-white placeholder:text-slate-500 focus:outline-none focus:border-electric-400 focus:bg-slate-900 focus:ring-2 focus:ring-electric-400/20 transition-all duration-300 text-sm sm:text-base shadow-inner";
 
   return (
-    <section id="contact" className="relative py-24 sm:py-32 overflow-hidden">
+    <section id="contact" className="relative py-28 sm:py-36 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(59,130,246,0.05),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(59,130,246,0.06),transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-16 sm:mb-20"
         >
-          <span className="text-accent-emerald font-mono text-sm tracking-wider uppercase">
-            — Contact
+          <span className="text-accent-emerald font-mono text-sm tracking-wider uppercase px-3.5 py-1.5 rounded-full bg-accent-emerald/10 border border-accent-emerald/20">
+            Let&apos;s Connect
           </span>
-          <h2 className="section-heading mt-4 text-white">
+          <h2 className="section-heading mt-6 text-white">
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="section-subheading mt-4 mx-auto">
-            Have a project in mind or want to discuss opportunities? I&apos;d love to hear from you.
+            Have an e-commerce project in mind, need Shopify consulting, or want to explore opportunities?
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:col-span-2 space-y-6"
           >
-            <div className="glass-card p-6 hover:transform-none">
-              <h3 className="text-lg font-semibold text-white mb-6">Contact Information</h3>
+            <div className="glass-card p-8 sm:p-10 rounded-3xl border border-white/15 shadow-2xl">
+              <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
 
-              <div className="space-y-5">
+              <div className="space-y-6">
                 {[
                   { icon: Mail, label: 'Email', value: personalData.email, href: `mailto:${personalData.email}` },
                   { icon: Phone, label: 'Phone', value: personalData.phone, href: `tel:${personalData.phone}` },
@@ -105,14 +106,16 @@ export default function Contact() {
                   <a
                     key={item.label}
                     href={item.href}
-                    className="flex items-start gap-4 group"
+                    className="flex items-start gap-4 group p-3 -m-3 rounded-xl hover:bg-white/5 transition-colors"
                   >
-                    <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-electric-500/10 to-purple-500/10 border border-white/5 flex items-center justify-center shrink-0 group-hover:border-electric-500/30 transition-colors">
+                    <div className="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center shrink-0 group-hover:border-electric-400 group-hover:bg-electric-500/20 transition-all shadow-sm">
                       <item.icon className="w-5 h-5 text-electric-400" />
                     </div>
                     <div>
-                      <div className="text-xs text-slate-500 uppercase tracking-wider">{item.label}</div>
-                      <div className="text-sm text-slate-300 group-hover:text-white transition-colors">{item.value}</div>
+                      <div className="text-xs text-slate-400 uppercase tracking-wider font-mono">{item.label}</div>
+                      <div className="text-sm sm:text-base text-slate-200 font-medium group-hover:text-white transition-colors">
+                        {item.value}
+                      </div>
                     </div>
                   </a>
                 ))}
@@ -120,9 +123,9 @@ export default function Contact() {
             </div>
 
             {/* Social Links */}
-            <div className="glass-card p-6 hover:transform-none">
-              <h3 className="text-lg font-semibold text-white mb-4">Follow Me</h3>
-              <div className="flex gap-3">
+            <div className="glass-card p-8 sm:p-10 rounded-3xl border border-white/15 shadow-2xl">
+              <h3 className="text-lg font-bold text-white mb-4">Follow & Network</h3>
+              <div className="flex gap-4">
                 {[
                   { icon: Github, href: personalData.github, label: 'GitHub' },
                   { icon: Linkedin, href: personalData.linkedin, label: 'LinkedIn' },
@@ -130,13 +133,13 @@ export default function Contact() {
                 ].map((social) => (
                   <motion.a
                     key={social.label}
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.08, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
-                    className="w-12 h-12 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:border-electric-500/30 hover:bg-electric-500/10 transition-all"
+                    className="w-13 h-13 rounded-2xl bg-slate-900/80 border border-white/15 flex items-center justify-center text-slate-300 hover:text-white hover:border-electric-400 hover:bg-electric-500/20 transition-all shadow-md"
                   >
                     <social.icon className="w-5 h-5" />
                   </motion.a>
@@ -147,16 +150,19 @@ export default function Contact() {
 
           {/* Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="lg:col-span-3"
           >
-            <form onSubmit={handleSubmit} className="glass-card p-6 sm:p-8 hover:transform-none">
-              <div className="grid sm:grid-cols-2 gap-4 mb-4">
+            <form onSubmit={handleSubmit} className="glass-card p-8 sm:p-12 rounded-3xl border border-white/15 shadow-2xl">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Send a Message</h3>
+              <p className="text-sm text-slate-400 mb-8">Fill out the form below and I will respond within 24 hours.</p>
+
+              <div className="grid sm:grid-cols-2 gap-5 mb-5">
                 <div>
-                  <label htmlFor="name" className="block text-xs text-slate-400 mb-2 uppercase tracking-wider">
-                    Your Name
+                  <label htmlFor="name" className="block text-xs font-mono uppercase tracking-wider text-slate-300 mb-2">
+                    Your Name *
                   </label>
                   <input
                     type="text"
@@ -165,13 +171,13 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder="John Doe"
+                    placeholder="Siddharth"
                     className={inputClasses}
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-xs text-slate-400 mb-2 uppercase tracking-wider">
-                    Your Email
+                  <label htmlFor="email" className="block text-xs font-mono uppercase tracking-wider text-slate-300 mb-2">
+                    Your Email *
                   </label>
                   <input
                     type="email"
