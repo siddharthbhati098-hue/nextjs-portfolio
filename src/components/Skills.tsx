@@ -47,7 +47,7 @@ export default function Skills() {
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.04),transparent_65%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -71,13 +71,13 @@ export default function Skills() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 sm:mb-16"
+          className="flex flex-wrap justify-center gap-2.5 sm:gap-4 mb-10 sm:mb-16"
         >
           {skills.map((category, index) => (
             <button
               key={category.category}
               onClick={() => setActiveCategory(index)}
-              className={`relative px-6 py-3 rounded-2xl text-sm sm:text-base font-semibold transition-all duration-300 cursor-pointer shadow-md ${
+              className={`relative px-4 py-2.5 sm:px-6 sm:py-3 rounded-xl sm:rounded-2xl text-xs sm:text-base font-semibold transition-all duration-300 cursor-pointer shadow-md ${
                 activeCategory === index
                   ? 'text-white bg-gradient-to-r from-electric-500 to-purple-500 shadow-electric-500/25'
                   : 'glass-card text-slate-300 hover:text-white hover:border-electric-500/40'
@@ -95,7 +95,7 @@ export default function Skills() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
-            className="glass-card p-8 sm:p-12 rounded-3xl border border-white/15 shadow-2xl"
+            className="glass-card p-6 sm:p-8 lg:p-12 rounded-3xl border border-white/15 shadow-2xl"
           >
             <div className="space-y-6 sm:space-y-7">
               {skills[activeCategory].items.map((skill, index) => (

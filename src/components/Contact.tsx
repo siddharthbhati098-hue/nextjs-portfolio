@@ -67,7 +67,7 @@ export default function Contact() {
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(59,130,246,0.06),transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -94,10 +94,10 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:col-span-2 space-y-6"
           >
-            <div className="glass-card p-8 sm:p-10 rounded-3xl border border-white/15 shadow-2xl">
+            <div className="glass-card p-6 sm:p-8 lg:p-10 rounded-3xl border border-white/15 shadow-2xl">
               <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
 
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 {[
                   { icon: Mail, label: 'Email', value: personalData.email, href: `mailto:${personalData.email}` },
                   { icon: Phone, label: 'Phone', value: personalData.phone, href: `tel:${personalData.phone}` },
@@ -106,14 +106,14 @@ export default function Contact() {
                   <a
                     key={item.label}
                     href={item.href}
-                    className="flex items-start gap-4 group p-3 -m-3 rounded-xl hover:bg-white/5 transition-colors"
+                    className="flex items-start gap-3 sm:gap-4 group p-2.5 sm:p-3 rounded-xl hover:bg-white/5 transition-colors"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center shrink-0 group-hover:border-electric-400 group-hover:bg-electric-500/20 transition-all shadow-sm">
+                    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center shrink-0 group-hover:border-electric-400 group-hover:bg-electric-500/20 transition-all shadow-sm">
                       <item.icon className="w-5 h-5 text-electric-400" />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <div className="text-xs text-slate-400 uppercase tracking-wider font-mono">{item.label}</div>
-                      <div className="text-sm sm:text-base text-slate-200 font-medium group-hover:text-white transition-colors">
+                      <div className="text-sm sm:text-base text-slate-200 font-medium group-hover:text-white transition-colors break-all">
                         {item.value}
                       </div>
                     </div>
@@ -123,9 +123,9 @@ export default function Contact() {
             </div>
 
             {/* Social Links */}
-            <div className="glass-card p-8 sm:p-10 rounded-3xl border border-white/15 shadow-2xl">
+            <div className="glass-card p-6 sm:p-8 lg:p-10 rounded-3xl border border-white/15 shadow-2xl">
               <h3 className="text-lg font-bold text-white mb-4">Follow & Network</h3>
-              <div className="flex gap-4">
+              <div className="flex gap-3 sm:gap-4">
                 {[
                   { icon: Github, href: personalData.github, label: 'GitHub' },
                   { icon: Linkedin, href: personalData.linkedin, label: 'LinkedIn' },
@@ -139,7 +139,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
-                    className="w-13 h-13 rounded-2xl bg-slate-900/80 border border-white/15 flex items-center justify-center text-slate-300 hover:text-white hover:border-electric-400 hover:bg-electric-500/20 transition-all shadow-md"
+                    className="w-11 h-11 sm:w-13 sm:h-13 rounded-2xl bg-slate-900/80 border border-white/15 flex items-center justify-center text-slate-300 hover:text-white hover:border-electric-400 hover:bg-electric-500/20 transition-all shadow-md"
                   >
                     <social.icon className="w-5 h-5" />
                   </motion.a>
@@ -155,7 +155,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="lg:col-span-3"
           >
-            <form onSubmit={handleSubmit} className="glass-card p-8 sm:p-12 rounded-3xl border border-white/15 shadow-2xl">
+            <form onSubmit={handleSubmit} className="glass-card p-6 sm:p-8 lg:p-12 rounded-3xl border border-white/15 shadow-2xl">
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Send a Message</h3>
               <p className="text-sm text-slate-400 mb-8">Fill out the form below and I will respond within 24 hours.</p>
 

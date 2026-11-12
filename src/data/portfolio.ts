@@ -6,10 +6,10 @@ export const personalData = {
   email: "siddharth@example.com",
   phone: "+91 98765 43210",
   location: "India",
-  github: "https://github.com/siddharth",
+  github: "https://github.com/siddharthbhati098-hue",
   linkedin: "https://linkedin.com/in/siddharth",
   twitter: "https://twitter.com/siddharth",
-  resumeUrl: "#",
+  resumeUrl: "/resume.pdf",
 };
 
 export const experiences = [
@@ -64,43 +64,35 @@ export const experiences = [
 export const projects = [
   {
     id: 1,
-    title: "Luxe Fashion Store",
-    description: "A premium fashion e-commerce store built with custom Shopify theme. Features include dynamic product filtering, size guides, wishlist functionality, and optimized checkout flow with 40% improvement in Core Web Vitals.",
+    title: "AI Integrated Retail Store Business Analytics Model",
+    description:
+      "Retail businesses generate large amounts of transactional data, but extracting actionable insights manually is difficult. This project provides automated business analytics, interactive visualizations, product performance analysis, regional sales heatmaps, return-rate tracking, promotion effectiveness insights, and sales forecasting using Prophet to empower data-driven KPI decisions.",
     image: "/projects/project1.jpg",
-    technologies: ["Shopify", "Liquid", "JavaScript", "CSS", "Shopify CLI"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/siddharth/luxe-fashion",
-    category: "E-Commerce",
+    technologies: ["Python", "Pandas", "Plotly", "Streamlit", "Prophet", "Scikit-learn"],
+    liveUrl: "https://github.com/NavkarA/retail-analytics-dashboard.git",
+    githubUrl: "https://github.com/NavkarA/retail-analytics-dashboard.git",
+    category: "AI & Analytics",
   },
   {
     id: 2,
-    title: "Organic Beauty Marketplace",
-    description: "Multi-vendor beauty marketplace with custom product bundles, subscription boxes, and real-time inventory management. Integrated with Judge.me for reviews and Klaviyo for email marketing.",
+    title: "E-Commerce Product Review App",
+    description:
+      "Shopify-specific product review and badge application built for modern e-commerce storefronts. Seamlessly enhances social proof and store conversion rates by showcasing verified customer ratings, reviews, and custom product trust badges.",
     image: "/projects/project2.jpg",
-    technologies: ["Shopify", "Liquid", "JavaScript", "REST API", "Node.js"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/siddharth/organic-beauty",
-    category: "E-Commerce",
+    technologies: ["React", "Remix", "JavaScript", "Tailwind CSS", "Shopify API"],
+    liveUrl: "https://github.com/siddharthbhati098-hue/product-budge-app.git",
+    githubUrl: "https://github.com/siddharthbhati098-hue/product-budge-app.git",
+    category: "Shopify App",
   },
   {
     id: 3,
-    title: "Smart Home Electronics",
-    description: "Tech-focused e-commerce store with advanced product comparison, AR preview, dynamic FAQ sections, and a custom-built product recommendation engine. Achieved 95+ Lighthouse scores.",
+    title: "Developer Portfolio Website",
+    description:
+      "High-performance, luxury-aesthetic developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Node.js. Features interactive tech matrices, contact API, responsive cards, and dynamic micro-animations.",
     image: "/projects/project3.jpg",
-    technologies: ["Shopify", "Liquid", "JavaScript", "Tailwind CSS", "API Integration"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/siddharth/smart-home",
-    category: "E-Commerce",
-  },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description: "This responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations, contact form API, and dark mode design.",
-    image: "/projects/project4.jpg",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Node.js"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/siddharth/portfolio",
-    category: "Web App",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Framer Motion"],
+    liveUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio.git",
+    githubUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio.git",
   },
 ];
 

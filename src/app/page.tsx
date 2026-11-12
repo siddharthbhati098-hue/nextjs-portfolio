@@ -9,9 +9,9 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="w-full max-w-full overflow-x-hidden flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         <Hero />
         <About />
         <Skills />
@@ -20,6 +20,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

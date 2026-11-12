@@ -15,7 +15,7 @@ export default function About() {
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(59,130,246,0.06),transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -40,7 +40,7 @@ export default function About() {
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="lg:col-span-5 glass-card p-8 sm:p-10 flex flex-col items-center justify-center text-center relative overflow-hidden"
+            className="lg:col-span-5 glass-card p-6 sm:p-8 lg:p-10 flex flex-col items-center justify-center text-center relative overflow-hidden"
           >
             <div className="relative my-4">
               {/* Decorative ring */}
@@ -72,7 +72,7 @@ export default function About() {
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="lg:col-span-7 glass-card p-8 sm:p-10 flex flex-col justify-between"
+            className="lg:col-span-7 glass-card p-6 sm:p-8 lg:p-10 flex flex-col justify-between"
           >
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">

@@ -1,0 +1,186 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5342 >>
+stream
+BT
+/F1 24 Tf
+0.15 0.25 0.55 rg
+50 760 Td (SIDDHARTH) Tj
+ET
+BT
+/F1 12 Tf
+0.25 0.45 0.75 rg
+50 742 Td (Shopify & E-Commerce Developer | 2+ Years Experience) Tj
+ET
+BT
+/F2 9 Tf
+0.35 0.35 0.40 rg
+50 726 Td (Email: siddharth@example.com   |   Phone: +91 98765 43210   |   Location: India) Tj
+ET
+BT
+/F2 9 Tf
+0.20 0.40 0.70 rg
+50 712 Td (GitHub: github.com/siddharthbhati098-hue   |   LinkedIn: linkedin.com/in/siddharth) Tj
+ET
+0.80 0.82 0.88 RG 1 w 50 702 m 545 702 l S
+BT
+/F1 11 Tf
+0.15 0.25 0.55 rg
+50 685 Td (PROFESSIONAL SUMMARY) Tj
+ET
+BT
+/F2 9.5 Tf
+0.20 0.20 0.25 rg
+50 670 Td (Passionate and results-driven E-Commerce Developer with 2+ years of hands-on experience building high-performance) Tj
+50 657 Td (Shopify storefronts, dynamic Liquid sections, custom theme architectures, and web applications. Proven track record) Tj
+50 644 Td (of optimizing Core Web Vitals, increasing checkout conversion rates, and integrating third-party APIs.) Tj
+ET
+BT
+/F1 11 Tf
+0.15 0.25 0.55 rg
+50 624 Td (PROFESSIONAL EXPERIENCE) Tj
+ET
+BT
+/F1 10 Tf
+0.10 0.10 0.15 rg
+50 607 Td (Autumn  -  SDE-1 | Shopify Developer) Tj
+/F2 9 Tf
+0.40 0.40 0.45 rg
+410 607 Td (April 2026 - Present) Tj
+ET
+BT
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 593 Td (- Develop and customize Shopify themes using Liquid, HTML, CSS, and modern JavaScript.) Tj
+60 581 Td (- Build reusable and dynamic Shopify sections conforming to bespoke design and business requirements.) Tj
+60 569 Td (- Implement Core Web Vitals and performance optimizations, reducing page load times by up to 40%.) Tj
+60 557 Td (- Utilize Shopify CLI for streamlined theme development, customization, and continuous deployment workflows.) Tj
+60 545 Td (- Collaborate across cross-functional teams with Git and GitHub for version control and code reviews.) Tj
+60 533 Td (- Identify and troubleshoot complex frontend and theme bottlenecks to maximize UX and conversion.) Tj
+ET
+BT
+/F1 10 Tf
+0.10 0.10 0.15 rg
+50 514 Td (11:11 Media  -  Shopify Developer) Tj
+/F2 9 Tf
+0.40 0.40 0.45 rg
+395 514 Td (July 2025 - March 2026) Tj
+ET
+BT
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 500 Td (- Customized high-traffic Shopify themes utilizing Liquid, HTML5, CSS3, and JavaScript.) Tj
+60 488 Td (- Created dynamic and modular sections tailored to marketing campaigns and brand launches.) Tj
+60 476 Td (- Integrated and configured third-party Shopify apps including reviews, loyalty, and analytics.) Tj
+60 464 Td (- Improved overall website UI/UX and ensured strict responsive consistency across all mobile devices.) Tj
+60 452 Td (- Debugged cross-browser rendering inconsistencies and enhanced frontend responsiveness.) Tj
+ET
+BT
+/F1 10 Tf
+0.10 0.10 0.15 rg
+50 433 Td (iSpark IT Services  -  Shopify Developer Intern) Tj
+/F2 9 Tf
+0.40 0.40 0.45 rg
+400 433 Td (April 2025 - June 2025) Tj
+ET
+BT
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 419 Td (- Developed responsive theme sections with HTML, CSS, JavaScript, and Liquid template engine.) Tj
+60 407 Td (- Assisted senior developers with theme customization, component prototyping, and feature rollouts.) Tj
+60 395 Td (- Conducted rigorous cross-device QA testing and resolved responsive styling bugs.) Tj
+60 383 Td (- Acquired comprehensive foundation in Shopify Storefront API and theme architecture standards.) Tj
+ET
+BT
+/F1 11 Tf
+0.15 0.25 0.55 rg
+50 362 Td (KEY PROJECTS) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.10 0.15 rg
+50 346 Td (1. AI Integrated Retail Store Business Analytics Model) Tj
+/F2 8.5 Tf
+0.30 0.30 0.35 rg
+50 334 Td (Tech: Python, Pandas, Plotly, Streamlit, Prophet, Scikit-learn | GitHub: github.com/NavkarA/retail-analytics-dashboard) Tj
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 322 Td (- Developed interactive business analytics dashboard for multi-category retail transaction data.) Tj
+60 310 Td (- Automated product performance tracking, regional sales heatmaps, and return-rate analytics.) Tj
+60 298 Td (- Integrated Facebook Prophet time-series model for automated seasonal sales forecasting.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.10 0.15 rg
+50 281 Td (2. E-Commerce Product Review App for Shopify Stores) Tj
+/F2 8.5 Tf
+0.30 0.30 0.35 rg
+50 269 Td (Tech: React, Remix, JavaScript, Tailwind CSS, Shopify API | GitHub: github.com/siddharthbhati098-hue/product-budge-app) Tj
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 257 Td (- Custom review & trust badge application built specifically for Shopify online stores.) Tj
+60 245 Td (- Seamlessly displays verified buyer ratings, image reviews, and custom product badges to boost conversion.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.10 0.15 rg
+50 228 Td (3. Developer Portfolio Website) Tj
+/F2 8.5 Tf
+0.30 0.30 0.35 rg
+50 216 Td (Tech: Next.js 16, TypeScript, Tailwind CSS, Node.js | GitHub: github.com/siddharthbhati098-hue/nextjs-portfolio) Tj
+/F2 9 Tf
+0.20 0.20 0.25 rg
+60 204 Td (- High-performance, luxury-aesthetic portfolio with interactive tech matrices and Contact form API.) Tj
+ET
+BT
+/F1 11 Tf
+0.15 0.25 0.55 rg
+50 183 Td (TECHNICAL SKILLS) Tj
+ET
+BT
+/F1 9 Tf
+0.15 0.15 0.20 rg
+50 168 Td (E-Commerce: ) Tj
+/F2 9 Tf
+125 168 Td (Shopify Theme Development, Liquid, Shopify CLI, Storefront API, App Integrations) Tj
+/F1 9 Tf
+50 154 Td (Frontend: ) Tj
+/F2 9 Tf
+125 154 Td (JavaScript (ES6+), TypeScript, React.js, Next.js, HTML5, CSS3/SCSS, Tailwind CSS) Tj
+/F1 9 Tf
+50 140 Td (Data & Backend: ) Tj
+/F2 9 Tf
+125 140 Td (Python, Node.js, REST APIs, Git, GitHub, Core Web Vitals, Performance Optimization) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000005651 00000 n 
+0000005726 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5796
+%%EOF

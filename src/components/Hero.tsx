@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 sm:pt-36 pb-20 px-6 sm:px-8"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 sm:pt-36 pb-20 px-4 sm:px-6"
     >
       {/* Background Orbs */}
       <div className="orb w-[500px] h-[500px] bg-electric-500 top-[-100px] left-[-100px]" />
@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Radial gradient overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#020617_70%)]" />
 
-      <div className="relative z-10 max-w-5xl mx-auto text-center">
+      <div className="relative z-10 max-w-5xl mx-auto text-center w-full">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm mb-8"
         >
           <Sparkles className="w-4 h-4 text-electric-400" />
-          <span className="text-sm text-slate-300 font-medium">Available for exciting opportunities</span>
+          <span className="text-xs sm:text-sm text-slate-300 font-medium">Available for exciting opportunities</span>
         </motion.div>
 
         {/* Greeting */}
@@ -45,7 +45,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-lg sm:text-xl text-slate-400 mb-4 font-mono"
+          className="text-base sm:text-xl text-slate-400 mb-4 font-mono"
         >
           Hello, I&apos;m
         </motion.p>
@@ -55,7 +55,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight mb-4"
+          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight mb-4 break-words"
         >
           <span className="text-white">{personalData.name}</span>
           <span className="gradient-text">.</span>
@@ -66,7 +66,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6"
+          className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 break-words"
         >
           <span className="gradient-text">{personalData.title}</span>
         </motion.h2>
@@ -104,9 +104,10 @@ export default function Hero() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href={personalData.resumeUrl}
+            download="Siddharth_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="group px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm text-white font-semibold text-lg hover:bg-white/10 hover:border-white/20 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
+            className="group px-8 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm text-white font-semibold text-lg hover:bg-white/10 hover:border-white/20 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto cursor-pointer shadow-lg"
           >
             <Download className="w-5 h-5 group-hover:-translate-y-0.5 transition-transform" />
             Download CV

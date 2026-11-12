@@ -16,7 +16,7 @@ export default function Projects() {
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(168,85,247,0.06),transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -83,8 +83,8 @@ export default function Projects() {
                 </div>
 
                 {/* Content Box */}
-                <div className="p-8 sm:p-9">
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-electric-300 transition-colors">
+                <div className="p-6 sm:p-8">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-electric-300 transition-colors">
                     {project.title}
                   </h3>
                   <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-6">
@@ -106,14 +106,14 @@ export default function Projects() {
               </div>
 
               {/* Action Links Bar */}
-              <div className="px-8 pb-8 sm:px-9 sm:pb-9 pt-4 flex items-center gap-4 border-t border-white/10 mt-auto">
+              <div className="px-6 pb-6 sm:px-8 sm:pb-8 pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 border-t border-white/10 mt-auto">
                 <a
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-electric-500 to-purple-500 text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-lg shadow-electric-500/20 transition-all"
+                  className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-electric-500 to-purple-500 text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-lg shadow-electric-500/20 transition-all text-center"
                 >
-                  <span>Live Preview</span>
+                  <span>View Project / Repo</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
 
@@ -121,10 +121,10 @@ export default function Projects() {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-3 px-5 rounded-xl bg-slate-900/80 border border-white/15 text-white hover:text-electric-300 hover:border-electric-400 font-semibold text-sm flex items-center justify-center gap-2 transition-all shadow-md"
+                  className="py-3 px-5 rounded-xl bg-slate-900/80 border border-white/15 text-white hover:text-electric-300 hover:border-electric-400 font-semibold text-sm flex items-center justify-center gap-2 transition-all shadow-md text-center"
                 >
                   <Github className="w-4 h-4" />
-                  <span>Code</span>
+                  <span>GitHub</span>
                 </a>
               </div>
             </motion.div>

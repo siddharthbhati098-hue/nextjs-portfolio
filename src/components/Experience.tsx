@@ -14,7 +14,7 @@ export default function Experience() {
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(168,85,247,0.06),transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12" ref={ref}>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -41,7 +41,7 @@ export default function Experience() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="glass-card p-8 sm:p-10 rounded-3xl border border-white/15 shadow-2xl relative overflow-hidden group"
+              className="glass-card p-6 sm:p-8 lg:p-10 rounded-3xl border border-white/15 shadow-2xl relative overflow-hidden group"
             >
               {/* Subtle accent glow */}
               <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-electric-500/10 to-transparent rounded-bl-full pointer-events-none" />
