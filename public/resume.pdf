@@ -1,186 +1,130 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Length 5342 >>
-stream
-BT
-/F1 24 Tf
-0.15 0.25 0.55 rg
-50 760 Td (SIDDHARTH) Tj
-ET
-BT
-/F1 12 Tf
-0.25 0.45 0.75 rg
-50 742 Td (Shopify & E-Commerce Developer | 2+ Years Experience) Tj
-ET
-BT
-/F2 9 Tf
-0.35 0.35 0.40 rg
-50 726 Td (Email: siddharth@example.com   |   Phone: +91 98765 43210   |   Location: India) Tj
-ET
-BT
-/F2 9 Tf
-0.20 0.40 0.70 rg
-50 712 Td (GitHub: github.com/siddharthbhati098-hue   |   LinkedIn: linkedin.com/in/siddharth) Tj
-ET
-0.80 0.82 0.88 RG 1 w 50 702 m 545 702 l S
-BT
-/F1 11 Tf
-0.15 0.25 0.55 rg
-50 685 Td (PROFESSIONAL SUMMARY) Tj
-ET
-BT
-/F2 9.5 Tf
-0.20 0.20 0.25 rg
-50 670 Td (Passionate and results-driven E-Commerce Developer with 2+ years of hands-on experience building high-performance) Tj
-50 657 Td (Shopify storefronts, dynamic Liquid sections, custom theme architectures, and web applications. Proven track record) Tj
-50 644 Td (of optimizing Core Web Vitals, increasing checkout conversion rates, and integrating third-party APIs.) Tj
-ET
-BT
-/F1 11 Tf
-0.15 0.25 0.55 rg
-50 624 Td (PROFESSIONAL EXPERIENCE) Tj
-ET
-BT
-/F1 10 Tf
-0.10 0.10 0.15 rg
-50 607 Td (Autumn  -  SDE-1 | Shopify Developer) Tj
-/F2 9 Tf
-0.40 0.40 0.45 rg
-410 607 Td (April 2026 - Present) Tj
-ET
-BT
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 593 Td (- Develop and customize Shopify themes using Liquid, HTML, CSS, and modern JavaScript.) Tj
-60 581 Td (- Build reusable and dynamic Shopify sections conforming to bespoke design and business requirements.) Tj
-60 569 Td (- Implement Core Web Vitals and performance optimizations, reducing page load times by up to 40%.) Tj
-60 557 Td (- Utilize Shopify CLI for streamlined theme development, customization, and continuous deployment workflows.) Tj
-60 545 Td (- Collaborate across cross-functional teams with Git and GitHub for version control and code reviews.) Tj
-60 533 Td (- Identify and troubleshoot complex frontend and theme bottlenecks to maximize UX and conversion.) Tj
-ET
-BT
-/F1 10 Tf
-0.10 0.10 0.15 rg
-50 514 Td (11:11 Media  -  Shopify Developer) Tj
-/F2 9 Tf
-0.40 0.40 0.45 rg
-395 514 Td (July 2025 - March 2026) Tj
-ET
-BT
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 500 Td (- Customized high-traffic Shopify themes utilizing Liquid, HTML5, CSS3, and JavaScript.) Tj
-60 488 Td (- Created dynamic and modular sections tailored to marketing campaigns and brand launches.) Tj
-60 476 Td (- Integrated and configured third-party Shopify apps including reviews, loyalty, and analytics.) Tj
-60 464 Td (- Improved overall website UI/UX and ensured strict responsive consistency across all mobile devices.) Tj
-60 452 Td (- Debugged cross-browser rendering inconsistencies and enhanced frontend responsiveness.) Tj
-ET
-BT
-/F1 10 Tf
-0.10 0.10 0.15 rg
-50 433 Td (iSpark IT Services  -  Shopify Developer Intern) Tj
-/F2 9 Tf
-0.40 0.40 0.45 rg
-400 433 Td (April 2025 - June 2025) Tj
-ET
-BT
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 419 Td (- Developed responsive theme sections with HTML, CSS, JavaScript, and Liquid template engine.) Tj
-60 407 Td (- Assisted senior developers with theme customization, component prototyping, and feature rollouts.) Tj
-60 395 Td (- Conducted rigorous cross-device QA testing and resolved responsive styling bugs.) Tj
-60 383 Td (- Acquired comprehensive foundation in Shopify Storefront API and theme architecture standards.) Tj
-ET
-BT
-/F1 11 Tf
-0.15 0.25 0.55 rg
-50 362 Td (KEY PROJECTS) Tj
-ET
-BT
-/F1 9.5 Tf
-0.10 0.10 0.15 rg
-50 346 Td (1. AI Integrated Retail Store Business Analytics Model) Tj
-/F2 8.5 Tf
-0.30 0.30 0.35 rg
-50 334 Td (Tech: Python, Pandas, Plotly, Streamlit, Prophet, Scikit-learn | GitHub: github.com/NavkarA/retail-analytics-dashboard) Tj
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 322 Td (- Developed interactive business analytics dashboard for multi-category retail transaction data.) Tj
-60 310 Td (- Automated product performance tracking, regional sales heatmaps, and return-rate analytics.) Tj
-60 298 Td (- Integrated Facebook Prophet time-series model for automated seasonal sales forecasting.) Tj
-ET
-BT
-/F1 9.5 Tf
-0.10 0.10 0.15 rg
-50 281 Td (2. E-Commerce Product Review App for Shopify Stores) Tj
-/F2 8.5 Tf
-0.30 0.30 0.35 rg
-50 269 Td (Tech: React, Remix, JavaScript, Tailwind CSS, Shopify API | GitHub: github.com/siddharthbhati098-hue/product-budge-app) Tj
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 257 Td (- Custom review & trust badge application built specifically for Shopify online stores.) Tj
-60 245 Td (- Seamlessly displays verified buyer ratings, image reviews, and custom product badges to boost conversion.) Tj
-ET
-BT
-/F1 9.5 Tf
-0.10 0.10 0.15 rg
-50 228 Td (3. Developer Portfolio Website) Tj
-/F2 8.5 Tf
-0.30 0.30 0.35 rg
-50 216 Td (Tech: Next.js 16, TypeScript, Tailwind CSS, Node.js | GitHub: github.com/siddharthbhati098-hue/nextjs-portfolio) Tj
-/F2 9 Tf
-0.20 0.20 0.25 rg
-60 204 Td (- High-performance, luxury-aesthetic portfolio with interactive tech matrices and Contact form API.) Tj
-ET
-BT
-/F1 11 Tf
-0.15 0.25 0.55 rg
-50 183 Td (TECHNICAL SKILLS) Tj
-ET
-BT
-/F1 9 Tf
-0.15 0.15 0.20 rg
-50 168 Td (E-Commerce: ) Tj
-/F2 9 Tf
-125 168 Td (Shopify Theme Development, Liquid, Shopify CLI, Storefront API, App Integrations) Tj
-/F1 9 Tf
-50 154 Td (Frontend: ) Tj
-/F2 9 Tf
-125 154 Td (JavaScript (ES6+), TypeScript, React.js, Next.js, HTML5, CSS3/SCSS, Tailwind CSS) Tj
-/F1 9 Tf
-50 140 Td (Data & Backend: ) Tj
-/F2 9 Tf
-125 140 Td (Python, Node.js, REST APIs, Git, GitHub, Core Web Vitals, Performance Optimization) Tj
-ET
-endstream
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:siddharthbhati098@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 172.8855 699.2 294.5655 710 ] /Subtype /Link /Type /Annot
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/A <<
+/S /URI /Type /Action /URI (tel:+917828635459)
+>> /Border [ 0 0 0 ] /Rect [ 332.9325 699.2 400.7385 710 ] /Subtype /Link /Type /Annot
+>>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/siddharthbhati098-hue)
+>> /Border [ 0 0 0 ] /Rect [ 146.4975 687.2 282.5685 698 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/siddharth-bhati-a460072ba/)
+>> /Border [ 0 0 0 ] /Rect [ 328.9365 687.2 498.5145 698 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/NavkarA/retail-analytics-dashboard)
+>> /Border [ 0 0 0 ] /Rect [ 517.98 374.375 570 386.375 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/siddharthbhati098-hue/product-budge-app)
+>> /Border [ 0 0 0 ] /Rect [ 517.98 335.375 570 347.375 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/siddharthbhati098-hue/nextjs-portfolio)
+>> /Border [ 0 0 0 ] /Rect [ 517.98 296.375 570 308.375 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R ] /Contents 15 0 R /MediaBox [ 0 0 612 792 ] /Parent 14 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/PageMode /UseNone /Pages 14 0 R /Type /Catalog
+>>
+endobj
+13 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261113104837+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261113104837+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+14 0 obj
+<<
+/Count 1 /Kids [ 11 0 R ] /Type /Pages
+>>
+endobj
+15 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2836
+>>
+stream
+Gb!;f?'E_s(4FN4\1^K494BH%LSkU;@6.(@KZ*3e<P0`gP),DM,K\bPMB>&/fhU=jF>gII0/YkZ_Qe7POj5u]8d9hS/g,Mc$@p_W]R5>3H&sWZ"\o'^'o^Vuf3\CaK#!#k2\5Ysp)H"b&ha7**P,o$JV0[>FsE*LhWqNdeQ`2I$[DKe"4&jbH?N96%3=M\$Y^)`o?"tjj_0rd5)8b<V#Q*6pZHPMqp>5EQ\:]m,kg]$TMFl\I,Dk4-uqZ+r%lRufb@+P#apns'SPm.!QRtKcO[i0H74`,+BNM??]1("2t.6qK6'm(6tQQSa=Uhp,SIhDpB!Mj//=,YPseNe1U;^S0BthCaA1mSh'e*ii'<t>iqe\-TWg`AeOU5[/J'R1![!!RgHXU!#fTYSJW't1fdj;;*<WBVT!,EKlbscXl40#-Xj!80-AqZU,;J+<9\4l['>hC!,)?mcM>T%5LSp)Y,r2R$i3-P*F,K?8G*[R;,f?S>dP"R,<f7V(=Acc7('`@55=$?l.rnN[Pi%RM_G:HXm%]g"J<]M3%W'Jm%O0Ma]g[q(^l"6f,[pI%H(s@BH/c=\%t_D7K"!lj*_(%;J<Tc%2[mL,an[XfV8qt="b^1`/hiY7#SMlA:$u&"4)NMO4.FOP^DYA\PP=N8="sZ!I6F$IC69RUL17%im"+2N_9hk`bHN);Ms?r@&gt%`OnmbM`Ca"DYpP!H%[*cJBf3sX]d<T\V!k6g)c^gXWl5V%R-/3,30:8Z@8Tmf;ndi@?*+>XO\6i*Cjp(-6YR^c;@9R,^I<I7D`B@_#$:G47<;9N1Q5@_a==#T!I@HI!a'&MW_''<8Q=RoIRb0(bEC7V"3Q1o'F'/T34f2_1*L_&X=,qXkjKk+F!1kfLFhB@<+Dg%5^=[_<g9er$"[n8h2"Zj-MT0TB!+C.h1hb2PEj)?%&_]Vk(=:>]n+RQU7A"Ek76hNgUeO;6g*tG2?%GRSk[5ncGpIXj@9d$9ho&Bk+:<qZ6dh_VV4c5'tah!!A!jP]8E`fH=-rcK`o@l&0!$8S-7bp54W4$=#_.!\gf[ep:M7)(ZPOJmour2anKcNaYjgQ2ms?O'/ZEhCY*i>hO;khk8HcacoU9ePa$a^HBCcKJuL#QE4tq:cEl8Ib]SD(UZ>s^,-RQKHWi:p%?`'?cR=h.$*bJOV*TUg8^",%6"QG=8?!,dl1J$ucKFef\V8+]jR<rBicukbWOHtd!Zb`e(rhVtjgD?#OJGd!_.jp(D.)ZEN=Qj@)C)M-'<iUZ'K6/8U?IKh2\uZT;$nTE>#@iu_R2E2=qEh\Zq4+MS&2nkfNc%kf[s)=?@@n\Y;1a9`%(m_i#FR2CV&.`<>t4Tqi?qKq;LAOqPYk/o'Q?i!_X\&Bh<9[-ms<#e9T;;1Bjn92]ulOAqFg@.o@b:8]eoj:=btt2bPLc:0T\2G^P2-JhanL`p!M:;CD_B3`oG<;@t_3";e)@L;-Q%iRH,;SVspY(kbek#&R+#P$:ORKSCE2fJdP(r/!n&cmse-RcG/ADZ0TYkn#kmYh^;4Xk:Y'FBH0I[:p,PCN#3DqtMnD%YdcqUt2+.\eWX+0:*\pCVAFoC>Z3^CY4*<Q+pq]6/k*0(eLqY[Wka[bFL;%9UUu3p&YRPDi!e:10g'2Y'=f-$YcaP=$0]NPP?6<h@k-Se$>+KFeC$d<AsSH"4o.9/k]dP6<;cW[LmF"R+PfD2tb=$NnHnNlnhNNHBLU)g0NG</#io'S@ndpRn\o^A^MqYBr4U[?OEt"/MYTe<LWDne!_7g$js84bZZsM:0a\N4Qo^0i;H'9U@T#@)jmET-dlIL^of47,_'jd$Cr:Fp7'7F[bb&TfRN<oX7Q*`fCGPa:[Qru?,"f7IB.Wtq)VgCcC\iO1j_2VMNXAg9)+9aEY>!,p[KDdPU3rp<,sI!gR8],+K<cUodH4V9#44t;G*X:hNX8.C3WC'c2JBP?qaOt246bBl[.DnL$)HJOOYpT/R8')!_npPiFZ^Uf^8V@<I2R:h\k:<D=4-%SVX(Mh;3QEM'$C1qWmni9P<hONmH2MYt_8@U]9.[*k%,^p<tafHIT:KUg$W,`7.)?S!+;+h<m[#D0:AEOV;o$brg5Ip>9_!(coR#+&+s\,Gj&h9'>qY[c0eQTYZk'lW5drkd;#S'_<<F5"qBkCt"/bZ[L2KF*LWdM=/8DUGl-_(r8:d5!hn,(d=c6Rc>HG1Mt(:h.^c-5NGqK(BVe8mJr-%Bfa>>-7^5u+DZ"2M7GB/#S&lG\2GF_),]NJP$tEE;`*\CLWcjhHTt@?SMS0_'ZQPKB"KB,Q)1%=[K'O&W5"634S2U!Qk>kQ50QP`^YLQ<.AlHlo"6TZmC\FUP>g+b[K8X[>+8*S=!uCJnF#[URPl"SJX2SLYe^'lQr_l]qeAqRalnn"R'FoL(%7[gR[o%6Mn9Cu[d"K>N`IT92>[P5l:Jt9GGBdWn:pp<'Z.#fS-l6^Jl,rOJ4t=h2rVE9GYc<SGN>6:^*l6D+4<kT%Q"*TaGKLWSNm3of*4?DWgA(i0)EA`DjB)d0N!-j1sM]K0!4g:DLp.[>=3td[YrXo4r7Ja9H-P;7`D9EgPZs[n)*S5\fY[oddd.p]?.VZm.BW)lK[>?b67LULHcp5?^/e0a,OV2+C<`'SOGNm3^meqnVci*@=']V3H[/A6gH.46Mlku4oD\d#ZI&Dm`b$"N[+-+:%HU%Ig#9\P98cZ!PCM'LX0VnH1^+foD=-D`PMAEqQ4;rSIE3%>Ffk9oDBFtFSMo#kM#qgn7*k"9K2PO;B_DgJ@+_?)GTs72P-i?6Wr<:S(c%s[HRYdZeVp/:B%tK:;2JtH@Gp6b`O+~>endstream
 endobj
 xref
-0 7
+0 16
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000121 00000 n 
-0000000257 00000 n 
-0000005651 00000 n 
-0000005726 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000499 00000 n 
+0000000660 00000 n 
+0000000844 00000 n 
+0000001042 00000 n 
+0000001238 00000 n 
+0000001439 00000 n 
+0000001640 00000 n 
+0000001891 00000 n 
+0000001961 00000 n 
+0000002242 00000 n 
+0000002303 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<<
+/ID 
+[<0f434a5fb142d113c6aab3beb6b622c4><0f434a5fb142d113c6aab3beb6b622c4>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 13 0 R
+/Root 12 0 R
+/Size 16
+>>
 startxref
-5796
+5231
 %%EOF

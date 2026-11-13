@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import Image from 'next/image';
 import { User, MapPin, Briefcase, Calendar } from 'lucide-react';
 import { personalData } from '@/data/portfolio';
 
@@ -43,15 +44,18 @@ export default function About() {
             className="lg:col-span-5 glass-card p-6 sm:p-8 lg:p-10 flex flex-col items-center justify-center text-center relative overflow-hidden"
           >
             <div className="relative my-4">
-              {/* Decorative ring */}
-              <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-electric-500/20 to-purple-500/20 blur-xl" />
-              <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-3xl overflow-hidden border-2 border-white/15 bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center shadow-2xl">
-                <div className="text-center p-6">
-                  <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-electric-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg shadow-electric-500/30">
-                    <User className="w-10 h-10 text-white" />
-                  </div>
-                  <p className="text-electric-400 text-sm font-mono font-semibold">{'<Developer />'}</p>
-                </div>
+              {/* Decorative glow */}
+              <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-electric-500/25 via-purple-500/25 to-pink-500/25 blur-2xl opacity-75" />
+              <div className="relative w-52 h-52 sm:w-60 sm:h-60 rounded-3xl overflow-hidden border-2 border-white/20 bg-gradient-to-br from-navy-900 to-slate-950 flex items-center justify-center shadow-2xl group">
+                <Image
+                  src={personalData.avatarUrl || "/profile.jpg"}
+                  alt={personalData.name}
+                  width={280}
+                  height={280}
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  priority
+                />
+                <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-3xl pointer-events-none" />
               </div>
             </div>
 

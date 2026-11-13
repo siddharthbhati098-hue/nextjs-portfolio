@@ -3,7 +3,7 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { Send, Mail, MapPin, Phone, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
-import { Github, Linkedin, Twitter } from '@/components/Icons';
+import { Github, Linkedin } from '@/components/Icons';
 import { personalData } from '@/data/portfolio';
 
 interface FormData {
@@ -99,13 +99,14 @@ export default function Contact() {
 
               <div className="space-y-4 sm:space-y-6">
                 {[
-                  { icon: Mail, label: 'Email', value: personalData.email, href: `mailto:${personalData.email}` },
-                  { icon: Phone, label: 'Phone', value: personalData.phone, href: `tel:${personalData.phone}` },
-                  { icon: MapPin, label: 'Location', value: personalData.location, href: '#' },
+                  { icon: Mail, label: 'Email', value: personalData.email, href: `mailto:${personalData.email}`, external: false },
+                  { icon: Phone, label: 'Phone', value: personalData.phone, href: `tel:${personalData.phone.replace(/\s+/g, '')}`, external: false },
+                  { icon: MapPin, label: 'Location', value: personalData.location, href: 'https://www.google.com/maps/search/?api=1&query=India', external: true },
                 ].map((item) => (
                   <a
                     key={item.label}
                     href={item.href}
+                    {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                     className="flex items-start gap-3 sm:gap-4 group p-2.5 sm:p-3 rounded-xl hover:bg-white/5 transition-colors"
                   >
                     <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center shrink-0 group-hover:border-electric-400 group-hover:bg-electric-500/20 transition-all shadow-sm">
@@ -129,7 +130,6 @@ export default function Contact() {
                 {[
                   { icon: Github, href: personalData.github, label: 'GitHub' },
                   { icon: Linkedin, href: personalData.linkedin, label: 'LinkedIn' },
-                  { icon: Twitter, href: personalData.twitter, label: 'Twitter' },
                 ].map((social) => (
                   <motion.a
                     key={social.label}

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Code2, Heart, ArrowUp } from 'lucide-react';
-import { Github, Linkedin, Twitter } from '@/components/Icons';
+import { Github, Linkedin } from '@/components/Icons';
 import { personalData, navLinks } from '@/data/portfolio';
 
 export default function Footer() {
@@ -38,7 +38,12 @@ export default function Footer() {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-slate-400 hover:text-electric-400 transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const target = document.querySelector(link.href);
+                      if (target) target.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="text-sm text-slate-400 hover:text-electric-400 transition-colors cursor-pointer"
                   >
                     {link.name}
                   </a>
@@ -63,8 +68,12 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Get In Touch</h4>
             <div className="space-y-2 text-sm text-slate-400">
-              <p>{personalData.email}</p>
-              <p>{personalData.phone}</p>
+              <a href={`mailto:${personalData.email}`} className="block hover:text-electric-400 transition-colors">
+                {personalData.email}
+              </a>
+              <a href={`tel:${personalData.phone.replace(/\s+/g, '')}`} className="block hover:text-electric-400 transition-colors">
+                {personalData.phone}
+              </a>
               <p>{personalData.location}</p>
             </div>
 
@@ -73,7 +82,6 @@ export default function Footer() {
               {[
                 { icon: Github, href: personalData.github },
                 { icon: Linkedin, href: personalData.linkedin },
-                { icon: Twitter, href: personalData.twitter },
               ].map((social, i) => (
                 <a
                   key={i}

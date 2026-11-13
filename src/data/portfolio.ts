@@ -3,13 +3,13 @@ export const personalData = {
   title: "Shopify & E-Commerce Developer",
   tagline: "Building exceptional digital storefronts that drive revenue and delight customers",
   bio: "I'm a passionate E-Commerce developer with 2+ years of experience crafting high-performance Shopify stores. I specialize in custom theme development, performance optimization, and creating seamless shopping experiences that convert visitors into loyal customers. From pixel-perfect UI implementations to complex integrations, I bring ideas to life on the web.",
-  email: "siddharth@example.com",
-  phone: "+91 98765 43210",
+  email: "siddharthbhati098@gmail.com",
+  phone: "+91 7828635459",
   location: "India",
   github: "https://github.com/siddharthbhati098-hue",
-  linkedin: "https://linkedin.com/in/siddharth",
-  twitter: "https://twitter.com/siddharth",
-  resumeUrl: "/resume.pdf",
+  linkedin: "https://www.linkedin.com/in/siddharth-bhati-a460072ba/",
+  resumeUrl: "/Sid_Resume.pdf",
+  avatarUrl: "/profile.jpg",
 };
 
 export const experiences = [
@@ -69,8 +69,8 @@ export const projects = [
       "Retail businesses generate large amounts of transactional data, but extracting actionable insights manually is difficult. This project provides automated business analytics, interactive visualizations, product performance analysis, regional sales heatmaps, return-rate tracking, promotion effectiveness insights, and sales forecasting using Prophet to empower data-driven KPI decisions.",
     image: "/projects/project1.jpg",
     technologies: ["Python", "Pandas", "Plotly", "Streamlit", "Prophet", "Scikit-learn"],
-    liveUrl: "https://github.com/NavkarA/retail-analytics-dashboard.git",
-    githubUrl: "https://github.com/NavkarA/retail-analytics-dashboard.git",
+    liveUrl: "https://github.com/NavkarA/retail-analytics-dashboard",
+    githubUrl: "https://github.com/NavkarA/retail-analytics-dashboard",
     category: "AI & Analytics",
   },
   {
@@ -80,8 +80,8 @@ export const projects = [
       "Shopify-specific product review and badge application built for modern e-commerce storefronts. Seamlessly enhances social proof and store conversion rates by showcasing verified customer ratings, reviews, and custom product trust badges.",
     image: "/projects/project2.jpg",
     technologies: ["React", "Remix", "JavaScript", "Tailwind CSS", "Shopify API"],
-    liveUrl: "https://github.com/siddharthbhati098-hue/product-budge-app.git",
-    githubUrl: "https://github.com/siddharthbhati098-hue/product-budge-app.git",
+    liveUrl: "https://github.com/siddharthbhati098-hue/product-budge-app",
+    githubUrl: "https://github.com/siddharthbhati098-hue/product-budge-app",
     category: "Shopify App",
   },
   {
@@ -91,8 +91,8 @@ export const projects = [
       "High-performance, luxury-aesthetic developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Node.js. Features interactive tech matrices, contact API, responsive cards, and dynamic micro-animations.",
     image: "/projects/project3.jpg",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Framer Motion"],
-    liveUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio.git",
-    githubUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio.git",
+    liveUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio",
+    githubUrl: "https://github.com/siddharthbhati098-hue/nextjs-portfolio",
   },
 ];
 

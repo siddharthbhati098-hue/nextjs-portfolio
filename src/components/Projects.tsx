@@ -107,25 +107,39 @@ export default function Projects() {
 
               {/* Action Links Bar */}
               <div className="px-6 pb-6 sm:px-8 sm:pb-8 pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 border-t border-white/10 mt-auto">
-                <a
-                  href={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-electric-500 to-purple-500 text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-lg shadow-electric-500/20 transition-all text-center"
-                >
-                  <span>View Project / Repo</span>
-                  <ArrowUpRight className="w-4 h-4" />
-                </a>
-
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="py-3 px-5 rounded-xl bg-slate-900/80 border border-white/15 text-white hover:text-electric-300 hover:border-electric-400 font-semibold text-sm flex items-center justify-center gap-2 transition-all shadow-md text-center"
-                >
-                  <Github className="w-4 h-4" />
-                  <span>GitHub</span>
-                </a>
+                {project.liveUrl && project.liveUrl !== project.githubUrl ? (
+                  <>
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-electric-500 to-purple-500 text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-lg shadow-electric-500/20 transition-all text-center"
+                    >
+                      <span>Live Demo</span>
+                      <ArrowUpRight className="w-4 h-4" />
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="py-3 px-5 rounded-xl bg-slate-900/80 border border-white/15 text-white hover:text-electric-300 hover:border-electric-400 font-semibold text-sm flex items-center justify-center gap-2 transition-all shadow-md text-center"
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>GitHub</span>
+                    </a>
+                  </>
+                ) : (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-electric-500 to-purple-500 text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-lg shadow-electric-500/20 transition-all text-center"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>View on GitHub</span>
+                    <ArrowUpRight className="w-4 h-4" />
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}
